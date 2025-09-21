@@ -1,0 +1,14 @@
+{
+  "name": "kalkulator-wynagrodzen",
+  "version": "1.0.0",
+  "description": "Kalkulator wynagrodzeń dla pracowników",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --devtools"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "keywords": ["electron", "kalkulator", "wynagrodzenia"]
+}

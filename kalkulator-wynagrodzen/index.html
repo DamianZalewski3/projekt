@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kalkulator Wynagrodzeń</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    label, input { display: block; margin-bottom: 10px; }
+    button { padding: 10px 20px; }
+    #result { margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Kalkulator Wynagrodzeń</h1>
+  <label>Podstawowa stawka godzinowa (PLN):
+    <input type="number" id="rate" min="0" step="0.01" />
+  </label>
+  <label>Liczba przepracowanych godzin:
+    <input type="number" id="hours" min="0" step="0.1" />
+  </label>
+  <label>Premia (PLN):
+    <input type="number" id="bonus" min="0" step="0.01" value="0" />
+  </label>
+  <button id="calculate">Oblicz wynagrodzenie</button>
+  <div id="result"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+cd "C:\Users\zalew\OneDrive\Pulpit\kalkulator-wynagrodzen"
+
+npm start
